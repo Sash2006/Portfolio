@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #300303;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #000000d7;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #300303;
+    color: white;
+  }
+  
+  .topnav .icon {
+    display: none;
+  }
+
+h1{
+
+
+  width:100%;
+  margin:2% auto 0;
+  border-left: 1px dashed #ffffff;
+  border-right: 1px dashed #e9e9e9;;
+  padding:2%;
+   background-color: #300303;
+  text-align: center;
+  color: #ddd;
+
+  
+}
+h2{
+
+
+  width:100%;
+  margin:2% auto 0;
+  border-left: 1px dashed #f0e9e9;
+  border-right: 1px dashed #ffffff;;
+  padding:2%;
+  background-color: #300303; 
+  text-align: center;
+  color: #ddd;
+
+  
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+p{
+  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-size: larger;
+    color: #ddd;
+  
+}
+
+ul{
+  color: #e9e9e9;
+  margin-left: auto;
+  margin-right:auto;
+  width: 50%;
+  font-size: larger;
+  display: block;
+  
+}
+
+.form-container{
+
+  background-color: #ffffff;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  width: 300px;
+  
+  width: 60%;
+  margin: 0 auto;
+  
+}
+
+.form-container h2{
+
+width:90%;
+
+}
+  
+
+
+
+ label{
+  display: block;
+  margin: 10px 5px;
+  font-weight: bold;
+  color: #ffffff;
+ }
+ input{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px #000000;
+  border-radius: 6px;
+  box-sizing: border-box;
+ }
+
+ input:focus{
+  border-color: #300303;
+  outline: none;
+
+ }
+
+ button{
+  
+  width: 100%;
+  padding: 10px;
+  background-color: #000000;
+  color: #f0e3e3;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+ }
+
+ button:hover {
+  background-color: #000000d7;
+ }
+
+ footer { 
+
+  width: 100%;
+
+  background-color: #000000;
+
+  color: white;
+
+  text-align: center;
+
+}
